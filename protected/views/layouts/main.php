@@ -57,7 +57,7 @@ Yii::app()->clientScript->registerPackage('bootstrapCSS');
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Avetak</a>
+            <a class="navbar-brand" href="Yii::app()->request->baseUrl.'/index.php'">Avetak</a>
           </div>
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
@@ -169,9 +169,9 @@ $curpage .= '/'.Yii::app()->getController()->getAction()->controller->action->id
 					
 					<a style="color:#9f9f9f">&copy; Avetak Oy</a>
 					·
-					<a href="www.avetak.fi"style="color:#9f9f9f">www.avetak.fi</a>
+					<a href="http://www.avetak.fi" style="color:#9f9f9f">www.avetak.fi</a>
 					·
-					<a href="www.e-palkki.fi"style="color:#9f9f9f">www.e-palkki.fi</a>
+					<a href="http://www.e-palkki.fi" style="color:#9f9f9f">www.e-palkki.fi</a>
 					·
 					<a style="color:#9f9f9f">Y-tunnus 2692378-6</a>
 
