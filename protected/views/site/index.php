@@ -229,7 +229,7 @@ img.logo.img-thumbnail{
 		   <div class="row">
 		   <br>
 
-		     <a href="http://vetel.fi"><img src="img/e-palkki.jpg" class="img-thumbnail"></a>
+		     <a href="http://e-palkki.fi"><img src="img/e-palkki.jpg" class="img-thumbnail"></a>
 		     <a href="<?php echo Yii::app()->request->baseUrl; ?>/index.php/site/videolinkit"><img src="img/youtube.jpg" class="img-thumbnail"></a>
 		   </div>
 	    </div>
