@@ -152,8 +152,10 @@ $curpage .= '/'.Yii::app()->getController()->getAction()->controller->action->id
 					·
 					<a href="#">Seuranta</a>
 					·
-					<a href="#">Yhteystiedot</a>-->
-				</p>
+					<a href="#">Yhteystiedot</a>
+				</p>-->
+
+
 			
 			</div>
 
@@ -176,6 +178,39 @@ $curpage .= '/'.Yii::app()->getController()->getAction()->controller->action->id
 					<a style="color:#9f9f9f">Y-tunnus 2692378-6</a>
 
 					</p>
+
+
+
+<!-- TeamViewer  -->
+<div style="position:relative; width:200px; height:125px;">
+
+  <a href="https://get.teamviewer.com/acesa87"
+style="text-decoration:none;">
+
+    <img src="http://www.teamviewer.com/link/?url=246800&id=1013188531"
+alt="TeamViewerin käyttö online-tapaamisiin" title="TeamViewerin
+käyttö online-tapaamisiin" border="0" width="200" height="125" />
+
+    <span style="position:absolute; top:74.5px; left:5px; display:block;
+cursor:pointer; color:White; font-family:Arial; font-size:15px;
+line-height:1.2em; font-weight:bold; text-align:center; width:190px;">
+
+      Avetak Oy Online-tapaaminen
+
+    </span>
+
+  </a>
+
+</div>
+
+
+
+<a href="https://www.tilaajavastuu.fi/?yt= [1]YRITYKSEN YTUNNUS"><img
+border="0"
+src="https://www.tilaajavastuu.fi/wp-content/uploads/2013/10/lk_logo.png"
+alt="LuotettavaKumppaniyritys"/></a>
+<!-- TeamViewer  -->
+
 			</div>
 </center>
 
