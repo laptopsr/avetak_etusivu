@@ -137,7 +137,10 @@ $curpage .= '/'.Yii::app()->getController()->getAction()->controller->action->id
 <footer class="footer-distributed">
 <div class="container-fluid">
 			<div class="footer-left">
-				<!--<h3>Avetak Oy</h3>-->
+
+
+<div class="row">
+ <div class="col-sm-5">
 				<div class="footer-icons">
 
 					<a href="#"><i class="fa fa-facebook"></i></a>
@@ -145,16 +148,23 @@ $curpage .= '/'.Yii::app()->getController()->getAction()->controller->action->id
 					<a href="#"><i class="fa fa-linkedin"></i></a>
 
 				</div>
-				<!--<p class="footer-company-name">&copy; Made by vetel.fi</p>
-				
-					
-					<a href="#">Ravinto</a>
-					·
-					<a href="#">Seuranta</a>
-					·
-					<a href="#">Yhteystiedot</a>
-				</p>-->
 
+
+ </div><div class="col-sm-2">
+<center>
+<!-- TeamViewer  -->
+<div style="position:relative; width:120px; height:60px;">
+  <a href="https://go.teamviewer.com/cq666rv" style="text-decoration:none;">
+    <img src="http://www.teamviewer.com/link/?url=979936&id=599737195" alt="Avetak Oy Online-Tapaaminen" title="Avetak Oy Online-Tapaaminen" border="0" width="120" height="60" />
+    <span style="position:absolute; top:19.5px; left:50px; display:block; cursor:pointer; color:White; font-family:Arial; font-size:10px; line-height:1.2em; font-weight:bold; text-align:center; width:65px;">
+      Avetak Oy Online-Tapaaminen
+    </span>
+  </a>
+</div>
+<!-- TeamViewer  -->
+</center>
+ </div>
+</div>
 
 			
 			</div>
@@ -162,7 +172,7 @@ $curpage .= '/'.Yii::app()->getController()->getAction()->controller->action->id
 			<div class="footer-center">
 
 <center>
-			<div class="row">
+
 
 					<i class="fa fa-envelope"></i>
 					<p><a href="avetak@avetak.fi">info@avetak.fi</a></p>
@@ -181,44 +191,19 @@ $curpage .= '/'.Yii::app()->getController()->getAction()->controller->action->id
 
 
 
-<!-- TeamViewer  -->
-<div style="position:relative; width:200px; height:125px;">
 
-  <a href="https://get.teamviewer.com/acesa87"
-style="text-decoration:none;">
-
-    <img src="http://www.teamviewer.com/link/?url=246800&id=1013188531"
-alt="TeamViewerin käyttö online-tapaamisiin" title="TeamViewerin
-käyttö online-tapaamisiin" border="0" width="200" height="125" />
-
-    <span style="position:absolute; top:74.5px; left:5px; display:block;
-cursor:pointer; color:White; font-family:Arial; font-size:15px;
-line-height:1.2em; font-weight:bold; text-align:center; width:190px;">
-
-      Avetak Oy Online-tapaaminen
-
-    </span>
-
-  </a>
-
-</div>
-
-
-
-<a href="https://www.tilaajavastuu.fi/?yt= [1]YRITYKSEN YTUNNUS"><img
-border="0"
-src="https://www.tilaajavastuu.fi/wp-content/uploads/2013/10/lk_logo.png"
-alt="LuotettavaKumppaniyritys"/></a>
-<!-- TeamViewer  -->
-
-			</div>
 </center>
-
-
 
 			</div>
 
 			<div class="footer-right">
+
+<div>
+<a href="https://www.tilaajavastuu.fi/fi/pikatarkistus/?yt=2692378-6"><img
+border="0"
+src="https://www.tilaajavastuu.fi/wp-content/uploads/2013/10/lk_logo.png"
+alt="LuotettavaKumppaniyritys"/></a>
+</div>
 
 			</div>
 
