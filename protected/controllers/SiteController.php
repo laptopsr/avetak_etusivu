@@ -25,7 +25,7 @@ class SiteController extends Controller
 	{
 		return array(
 			array('allow', 
-				'actions'=>array('index', 'yritysesittely', 'visio', 'asiakaspalvelun_yhteystiedot', 'asiakkuuden_hallinta', 'laskutus', 'uutiset', 'media', 'tiedotteet', 'kuvapankki', 'kilpailutus', 'kilpailutus', 'tyonhallinta', 'vararesurssi', 'laatu_toiminnan_tueksi', 'laatukoulutus', 'prosessikuvaus', 'prosessimanuaali', 'koulutus_tukipalvelut', 'menetelma_prosessikehitys', 'teollinen_internet', 'laskutuspalvelu', 'tuotteet', 'asiakaskunta', 'kumppanuus', 'kansainvalisyys', 'oletkovalmis', 'asiakas_epalkki', 'tuottaja_epalkki', 'esimerkit', 'tyopaikat', 'videolinkit', 'kuvapankki2'),
+				'actions'=>array('index', 'yritysesittely', 'visio', 'asiakaspalvelun_yhteystiedot', 'asiakkuuden_hallinta', 'laskutus', 'uutiset', 'media', 'tiedotteet', 'kuvapankki', 'kilpailutus', 'kilpailutus', 'tyonhallinta', 'vararesurssi', 'laatu_toiminnan_tueksi', 'laatukoulutus', 'prosessikuvaus', 'prosessimanuaali', 'koulutus_tukipalvelut', 'menetelma_prosessikehitys', 'teollinen_internet', 'laskutuspalvelu', 'tuotteet', 'asiakaskunta', 'kumppanuus', 'kansainvalisyys', 'oletkovalmis', 'asiakas_epalkki', 'tuottaja_epalkki', 'esimerkit', 'tyopaikat', 'videolinkit', 'kuvapankki2', 'prosessipalvelut'),
 				'users'=>array('*'),
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
@@ -193,6 +193,10 @@ class SiteController extends Controller
 	public function actionKuvapankki2()
 	{
 		$this->render('kuvapankki2');
+	}
+	public function actionProsessipalvelut()
+	{
+		$this->render('prosessipalvelut');
 	}
 
 
