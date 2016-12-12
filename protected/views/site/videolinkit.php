@@ -60,8 +60,8 @@ img { width: 80%; } // eli kaikki talla oleva kuvat
 			foreach($videot as $item)
 			{
 				echo '
-				<div class="row">
-				 <div class="col-sm-6 col-sm-offset-3">
+				<div class="row videoWrapperOuter">
+				 <div class="col-sm-6 videoWrapperInner">
 					'.$item->embed_code.'<br>
 					<p><b>'.date("d.m.Y", strtotime($item->time)).'</b>: '.$item->kuvaus.'</p>
 				 </div>
@@ -79,6 +79,29 @@ img { width: 80%; } // eli kaikki talla oleva kuvat
 
 
 
+<style>
+.videoWrapperOuter {
+  max-width:640px; 
+  margin-left:auto;
+  margin-right:auto;
+}
+.videoWrapperInner {
+  float: none;
+  clear: both;
+  width: 100%;
+  position: relative;
+  padding-bottom: 50%;
+  padding-top: 25px;
+  height: 0;
+}
+.videoWrapperInner iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+</style>
 
 
 
