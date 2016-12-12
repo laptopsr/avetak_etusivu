@@ -75,6 +75,7 @@ Yii::app()->clientScript->registerPackage('bootstrapCSS');
                   <li><?php echo CHtml::link('Prosessikuvaus',Yii::app()->request->baseUrl.'/index.php/site/prosessikuvaus'); ?></li>-->
                  <!-- <li><?php echo CHtml::link('Prosessimanuaali',Yii::app()->request->baseUrl.'/index.php/site/prosessimanuaali'); ?></li>-->
                   <li><?php echo CHtml::link('Hallinto- ja tukipalvelut',Yii::app()->request->baseUrl.'/index.php/site/koulutus_tukipalvelut'); ?></li>
+                  <li><?php echo CHtml::link('Prosessipalvelut',Yii::app()->request->baseUrl.'/index.php/site/prosessipalvelut'); ?></li>
                   <!--<li><?php echo CHtml::link('Menetelmä- ja prosessikehitys',Yii::app()->request->baseUrl.'/index.php/site/menetelma_prosessikehitys'); ?></li>
                   <li><?php echo CHtml::link('Teollinen internet',Yii::app()->request->baseUrl.'/index.php/site/teollinen_internet'); ?></li>
                   <li><?php echo CHtml::link('e-palkki laskutuspalvelu',Yii::app()->request->baseUrl.'/index.php/site/laskutuspalvelu'); ?></li>-->
