@@ -188,7 +188,16 @@ class SiteController extends Controller
 
 	public function actionVideolinkit()
 	{
-		$this->render('videolinkit');
+
+		$model = new Videot;
+		if(isset($_POST['Videot']))
+		{
+			$model->attributes=$_POST['Videot'];
+			if($model->save())
+				$this->redirect(array('videolinkit'));
+		}
+
+		$this->render('videolinkit', array('model'=>$model));
 	}
 	public function actionKuvapankki2()
 	{

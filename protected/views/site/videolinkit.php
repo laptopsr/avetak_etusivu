@@ -18,13 +18,7 @@
 
 	echo '<div id="videoLomakke" class="collapse">';
 
-	$model = new Videot;
-	if(isset($_POST['Videot']))
-	{
-		$model->attributes=$_POST['Videot'];
-		if($model->save())
-			$this->redirect(array('videolinkit'));
-	}
+
 	echo '
 	<div class="row">
 	  <div class="col-sm-12">
